@@ -15,6 +15,7 @@
 		9A6F739B239A995F003CA080 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A6F7399239A995F003CA080 /* LaunchScreen.storyboard */; };
 		9A6F73A6239A995F003CA080 /* firebase_auth_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6F73A5239A995F003CA080 /* firebase_auth_iosTests.swift */; };
 		9A6F73B1239A995F003CA080 /* firebase_auth_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6F73B0239A995F003CA080 /* firebase_auth_iosUITests.swift */; };
+		9A6F73BF239A99CF003CA080 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A6F73BE239A99CF003CA080 /* Login.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9A6F73AC239A995F003CA080 /* firebase-auth-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "firebase-auth-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6F73B0239A995F003CA080 /* firebase_auth_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firebase_auth_iosUITests.swift; sourceTree = "<group>"; };
 		9A6F73B2239A995F003CA080 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A6F73BE239A99CF003CA080 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				9A6F7397239A995F003CA080 /* Assets.xcassets */,
 				9A6F7399239A995F003CA080 /* LaunchScreen.storyboard */,
 				9A6F739C239A995F003CA080 /* Info.plist */,
+				9A6F73BE239A99CF003CA080 /* Login.storyboard */,
 			);
 			path = "firebase-auth-ios";
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A6F73BF239A99CF003CA080 /* Login.storyboard in Resources */,
 				9A6F739B239A995F003CA080 /* LaunchScreen.storyboard in Resources */,
 				9A6F7398239A995F003CA080 /* Assets.xcassets in Resources */,
 				9A6F7396239A995E003CA080 /* Main.storyboard in Resources */,
