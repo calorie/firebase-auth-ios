@@ -8,6 +8,10 @@ target 'firebase-auth-ios' do
   # Pods for firebase-auth-ios
   pod 'Firebase/Analytics'
   pod 'Firebase/Auth'
+  pod 'FirebaseUI'
+  pod 'Alamofire'
+  pod 'SwiftyJSON'
+  pod 'Spine', :git => 'https://github.com/json-api-ios/Spine.git'
 
   target 'firebase-auth-iosTests' do
     inherit! :search_paths
